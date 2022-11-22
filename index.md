@@ -42,6 +42,11 @@ http://hic.umassmed.edu/welcome/welcome.php or http://www.aidenlab.org/data.html
   inLanguage: "en-us"
   url: "https://gtpb.github.io/Web_course_template/"
 ---
+# 3DAROC22 
+
+
+![3DAROC22](/assets/3DAROC22.png)
+
 
 ## Course Description
 3C-based methods, such as Hi-C, produce a huge amount of raw data as pairs of DNA reads that are in close spatial proximity in the cell nucleus. Overall, those interaction matrices have been used to study how the genome folds within the nucleus, which is one of the most fascinating problems in modern biology. The rigorous analysis of those paired-reads using computational tools has been essential to fully exploit the experimental technique, and to study how the genome is folded in space. Currently, there is a clear expansion on the wealth of data on genome structure with the availability of many datasets of Hi-C experiments down to 1Kb resolution (see for example:
