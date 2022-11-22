@@ -42,8 +42,8 @@ http://hic.umassmed.edu/welcome/welcome.php or http://www.aidenlab.org/data.html
   inLanguage: "en-us"
   url: "https://gtpb.github.io/Web_course_template/"
 ---
-# 3DAROC22 
 
+# 3DAROC22 - 3C-based data analysis and 3D reconstruction of chromatin folding 
 
 ![3DAROC22](/assets/3DAROC22.png)
 
