@@ -57,10 +57,70 @@ The course design is oriented towards experimental researchers and bioinformatic
 
 ## Detailed Program
 
+<table>
+  <tbody>
+    <tr>
+      <th>Days</th>
+      <th>Lectures (pdf)</th>
+      <th>Core pipeline (notebooks)</th>
+    </tr>
+    <tr>
+     <td><strong>Day 1</strong></td>
+     <td>
+       <ul>
+        <li> <a href="./assets/Presentations/Day1/20221122_01_Welcome.pdf">Welcome and introduction</a></li>
+        <li> <a href="./assets/Presentations/Day1/20221122_02_overview_on_structure_determination.pdf">Overview on structure determination</a></li>
+        <li> <a href="./assets/Presentations/Day1/20221122_03_3D_Genomics.pdf">Overview of 3D genomes</a></li>
+        <li> <a href="./assets/Presentations/Day1/20221122_04_Introduction_to_linux.pdf">Live Introduction to Linux and working environment</a></li>
+        <li> <a href="./assets/Presentations/Day1/20221122_05_Intro_TADbit.pdf">Introduction to TADbit and data handling for 3C-based experiments</a></li>
+        <li> <a href="./assets/Presentations/Day1/20221122_06_NGS_for_HiC.pdf">From raw data to Hi-C contact matrices</a></li>
+       </ul>
+     </td>
+     <td>
+<ul>
+        <li> <a href="./assets/Notebooks/01-Inspect_Hi-C_input_data.ipynb">01-Inspect_Hi-C_input_data.ipynb</a></li>
+    <li> <a href="./assets/Notebooks/02-Generate_mapper_index.ipynb">02-Generate_mapper_index.ipynb</a></li>
+    <li> <a href="./assets/Notebooks/03-Hi-C_Quality_Check.ipynb">03-Hi-C_Quality_Check.ipynb</a></li>
+    <li> <a href="./assets/Notebooks/04-Mapping.ipynb">04-Mapping.ipynb</a></li>
+    <li> <a href="./assets/Notebooks/05-Parsing.ipynb">05-Parsing.ipynb</a></li>
+</ul>
+    </td>
+   </tr>
+    <tr>
+     <td><strong>Day 2</strong></td>
+     <td>
+       <ul>
+        <li> <a href="./assets/Presentations/Day2/20221123_01_Chromatin_and_3Cs.pdf">Chromatin structure and 3C data</a></li>
+        <li> <a href="./assets/Presentations/Day2/20221123_02_Integrative_modelling_applied_to_chromatin.pdf">Integrative modeling applied to chromatin with TADbit</a></li>
+        <li> <a href="./assets/Presentations/Day2/20221123_04_Hi-C_contact_matrices_filtering.pdf">Hi-C contact matrices: filtering</a></li>
+        <li> <a href="./assets/Presentations/Day2/20221123_01_Applications(I)_SOX2Dynamics.pdf">Biological applications I: SOX2 gene activation dynamics)</a></li>
+       </ul>
+     </td>
+     <td>
+     <ul>
+             <li> <a href="./assets/Notebooks/06-Intersecting_and_Filtering_mapped_reads.ipynb">06-Intersecting_and_Filtering_mapped_reads.ipynb</a></li>
+         <li> <a href="./assets/Notebooks/07-Bin_filtering_and_normalization.ipynb">07-Bin_filtering_and_normalization.ipynb</a></li>
+         <li> <a href="./assets/Notebooks/Higlass.ipynb">Higlass.ipynb</a></li>
+     </ul>
+    </td>
+   </tr>
+   
 
----
+  </tbody>
+</table>
 
 ### Learning objectives
+
+In this course, participants will learn to use __TADbit tools__, a wraper to the TADbit python library designed and developed to manage all the dimensionalities of the Hi-C data. Compared to previous 3DAROC courses, this course we will lower the learning curve and provide means to analyze 3C-based data using only command tools. So, if you know how run a command line in linux, you can learn and use TADbit tools. The tutorials will evolve around:
+
+ - 1D - Map paired-end sequences to generate Hi-C interaction matrices
+ - 2D - Normalize matrices and identify constitutive domains (compartments, TADs)
+ - 3D - Generate populations of model structures which reproduce the Hi-C interaction matrices
+ - 4D - Compare samples at different time points
+
+Participants can bring specific biological questions and/or their own 3C data to analyze during the course. At the end of the course, participants will be familiar with the TADbit tools software, and will be able to fully analyze Hi-C data.
+
+*__Note__: Although the TADbit software is central in this course, alternative software will be discussed for each part of the analysis.*
 
 ### Instructors
 Marc A. Martí-Renom obtained a PhD in Biophysics from the Universidad Autonoma de Barcelona (UAB) where he worked on protein folding under the supervision of B. Oliva, F.X. Aviles and M. Karplus (Nobel Laureate for Chemistry 2013). After that, he went to the US for a postdoctoral training on protein structure modelling at the Sali Lab (Rockefeller University) as the recipient of the Burroughs Wellcome Fund fellowship. Later on, Marc was appointed Assistant Adjunct Professor at UCSF. Between 2006 and 2011, he headed the Structural Genomics Group at the CIPF in Valencia (Spain). Currently, Marc is an ICREA research professor and leads the Structural Genomics Group at the National Center for Genomic Analysis - Centre for Genomic Regulation (CNAG-CRG) in Barcelona. His research group employs the laws of physics and the rules of evolution to develop and apply experimental and computational methods for elucidating the 3D structures of macromolecules and their complexes. Between 2012 and 2018, Marc was an Associate Editor of the PLoS Computational Biology journal and has published over 120 articles in international peer-reviewed journals. He coordinated two international teams funded by the EU (Era-Net Pathogenomics Grant) and the HFSP (Research Grants Award). Since 2014, he became the co-PI on the 4DGenome Grant funded by the ERC Synergy program as well as the co-PI on the MuG Research project funded by the European Commission H2020 program. In the last few years, Marc played a key role in Europe to promote the 4DNucleome Initiative, which recently joined forces with the single-cell and organoid communities to form the LifeTime Initiative towards a FET-FLAGSHIP in Europe to which he is a Steering Committee Member. Marc collaborates in GTPB as an instructor since 2008. PGDD08 - Pharmacogenomics: new opportunities for drug discovery; SG09 - Structural Genomics; SGDD10 - Structural Genomics and Drug Design; CSDM14-Chromosome structure determination using modelling and Hi-C data; 3DAROC16 - 3C-based data analysis and 3D reconstruction of chromatin folding; 3DAROC16, 3DAROC18 and 3DAROC21 - 3C-based data analysis and 3D reconstruction of chromatin folding.
