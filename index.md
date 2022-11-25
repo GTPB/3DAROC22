@@ -43,7 +43,7 @@ http://hic.umassmed.edu/welcome/welcome.php or http://www.aidenlab.org/data.html
   url: "https://gtpb.github.io/Web_course_template/"
 ---
 
-# 3DAROC22 - 3C-based data analysis and 3D reconstruction of chromatin folding 
+# 3DAROC22 - 3C-based data analysis and 3D reconstruction of chromatin folding
 
 ![3DAROC22](/assets/3DAROC22.png)
 
@@ -53,7 +53,7 @@ http://hic.umassmed.edu/welcome/welcome.php or http://www.aidenlab.org/data.html
 http://hic.umassmed.edu/welcome/welcome.php or http://www.aidenlab.org/data.html).
 
 ## Target Audience
-The course design is oriented towards experimental researchers and bioinformaticians at the graduate and post-graduate levels. The last edition of this course was attended by people with different backgrounds and interested in the genome organization. It is likely that the participants to this course aim at getting involved in generating Hi-C data for chromosome structure determination or that they just want to be able to correctly interpret and analyse publicly available data. 
+The course design is oriented towards experimental researchers and bioinformaticians at the graduate and post-graduate levels. The last edition of this course was attended by people with different backgrounds and interested in the genome organization. It is likely that the participants to this course aim at getting involved in generating Hi-C data for chromosome structure determination or that they just want to be able to correctly interpret and analyse publicly available data.
 
 ## Detailed Program
 
@@ -104,7 +104,24 @@ The course design is oriented towards experimental researchers and bioinformatic
      </ul>
     </td>
    </tr>
-   
+   <tr>
+    <td><strong>Day 3</strong></td>
+    <td>
+      <ul>
+       <li> <a href="./assets/Presentations/Day3/20221124_Applications(II)_CHROMATIC.pdf">Biological Application - CHROMATIC</a></li>
+       <li> <a href="./assets/Presentations/Day3/20221124_Comparison_between_experiments.pdf">Comparison between experiments</a></li>
+      </ul>
+    </td>
+    <td>
+    <ul>
+            <li> <a href="./assets/Notebooks/08-Compartments_and_TADs_detection.ipynb">08-Compartments_and_TADs_detection.ipynb</a></li>
+        <li> <a href="./assets/Notebooks/08b-insulation_score.ipynb">08b-insulation_score.ipynb</a></li>
+        <li> <a href="./assets/Notebooks/09-Compare_and_merge_Hi-C_experiments.ipynb">09-Compare_and_merge_Hi-C_experiments.ipynb</a></li>
+        <li> <a href="./assets/Notebooks/09b_CHESS_Compare_chromatin_contact_data.ipynb">09b_CHESS_Compare_chromatin_contact_data.ipynb</a></li>
+
+    </ul>
+   </td>
+  </tr>
 
   </tbody>
 </table>
@@ -132,7 +149,7 @@ In October 2020 he moved to the Institute of Human Genetics (Montpellier, FR) as
 
 https://orcid.org/0000-0001-6195-4754
 
-David Castillo obtained his MSc in Photonics from the Universitat PolitÃ¨cnica de Catalunya in Barcelona (Spain) where he worked in Super-resolution microscopy. He has a background in Physics and Engineering. He works as a technician in the Structural Genomics team of Marc A. MartÃ­-Renom at CNAG-CRG (Barcelona), developing tools for the analysis, modelling and visualization of Hi-C data. David is also interested in the integration of microscopy into the modeling of genomic 3D structures.He has been involved in GTPB as an instructor for 3DAROC18 - 3C-based data analysis and 3D reconstruction of chromatin folding. 
+David Castillo obtained his MSc in Photonics from the Universitat PolitÃ¨cnica de Catalunya in Barcelona (Spain) where he worked in Super-resolution microscopy. He has a background in Physics and Engineering. He works as a technician in the Structural Genomics team of Marc A. MartÃ­-Renom at CNAG-CRG (Barcelona), developing tools for the analysis, modelling and visualization of Hi-C data. David is also interested in the integration of microscopy into the modeling of genomic 3D structures.He has been involved in GTPB as an instructor for 3DAROC18 - 3C-based data analysis and 3D reconstruction of chromatin folding.
 
 ---
 
