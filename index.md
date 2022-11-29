@@ -122,7 +122,22 @@ The course design is oriented towards experimental researchers and bioinformatic
     </ul>
    </td>
   </tr>
-
+  <tr>
+   <td><strong>Day 4</strong></td>
+   <td>
+     <ul>
+      <li> <a href="./assets/Presentations/Day4/20221125_Applications(III)_IMGR.pdf">Biological Application - IMGR</a></li>
+      <li> <a href="./assets/Presentations/Day4/20221125_Applications(IV)_METALoci.pdf">Biological Application - METALoci</a></li>
+     </ul>
+   </td>
+   <td>
+   <ul>
+           <li> <a href="./assets/Notebooks/10-Modeling_parameters_optimization.ipynb">10-Modeling_parameters_optimization.ipynb</a></li>
+       <li> <a href="./assets/Notebooks/11-3D_Models_production_and_analysis.ipynb">11-3D_Models_production_and_analysis.ipynb</a></li>
+       
+   </ul>
+  </td>
+  </tr>
   </tbody>
 </table>
 
